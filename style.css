@@ -1,0 +1,315 @@
+:root{
+    --buttton-1-color: hsl(171, 66%, 44%);
+    --button-2-color:hsl(233, 100%, 69%);
+    --primary-colour:hsl(210, 10%, 33%);
+    --footer-color:hsl(180, 4%, 95%);
+    --max-width: 1440px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 400, 600;
+    font-size: 18px;
+}
+
+/* Utility */
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+ul{
+    list-style: none;
+    color: var(--primary-colour);
+}
+
+.container{
+    max-width: var(--max-width);
+    margin: auto;
+   
+   
+}
+
+img{
+    width: 100%;
+}
+
+.btn{
+    display: inline-block;
+    padding: 20px 35px;
+    border-radius: 35px;
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 250px;
+    
+}
+
+.btn-cyan{
+    background-color:var(--buttton-1-color);
+    box-shadow:0px 3px 15px var(--buttton-1-color), 0px 3px darkgreen ;
+   
+    
+   
+}
+
+.btn-blue{
+    background-color: var(--button-2-color);
+    box-shadow: inset 0px -3px darkblue;
+    
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+h1{
+    font-size: 2.65rem;
+}
+
+p{
+    font-size: 18px;
+    max-width: 750px;
+    margin: auto;
+    width: 100%;
+    color: var(--primary-colour);
+   
+   
+}
+
+
+
+
+
+/* Header */
+#main-header{
+
+   background: url(/images/bg-header-desktop.png) no-repeat center center/ cover;
+    width: 100%;
+    height: 50vh;
+   
+}
+
+
+
+
+
+/* Section */
+/* first */
+#main-section .container .first{
+    text-align: center;
+    padding: 3rem;
+}
+/* second */
+#main-section .container .second{
+    text-align: center;
+    padding: 3rem ;
+}
+
+#main-section .container .second h2{
+    font-size: 2.3rem;
+}
+
+#main-section .container .second p{
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.75rem;
+}
+
+
+#main-section .container .second .items{
+   display: flex;
+   justify-content:end;
+   gap: 50px;
+  margin-top: 5rem;
+
+}
+
+#main-section .container .second .items .inside{
+    padding: 2.5rem;
+}
+
+#main-section .container .second .items .inside div{
+    padding: 1rem;
+}
+
+#main-section .container .second .items .inside h3{
+    text-align: left;
+}
+
+#main-section .container .second .items .inside p{
+    width: 100%;
+    max-width: 390px;
+    margin: auto;
+    text-align: left;
+    line-height: 2rem;
+    font-size: 18px;
+}
+
+
+
+#main-section .container .second .items img{
+    transform: translateX(-20%);
+}
+#main-section .container .third{
+    margin-top:5rem;
+}
+
+#main-section .container .third > div{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+#main-section .container .third h2{
+    font-size: 2rem;
+}
+
+#main-section .container .third p{
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+    line-height: 1.75rem;
+    font-size: 18px;
+}
+
+#main-section .container .third > div img{
+    display: inline-block;
+    max-width: 700px;
+    height: auto;
+    margin: auto;
+    margin-top: 5rem;
+    
+}
+
+#main-section .container .fourth{
+    margin-top: 6rem;
+}
+
+#main-section .container .fourth h2{
+    font-size: 2rem;
+}
+
+#main-section .container .fourth p{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    max-width: 400px;
+    margin-bottom: 1.75rem;
+    height: 200px;
+}
+
+#main-section .container .fourth .cps{
+    padding: 1rem 6rem;
+}
+#main-section .container .fourth .cps h3{
+    font-size: 1.5rem;
+    
+}
+
+#main-section .container .fourth .cps p{
+    width: 100%;
+    max-width:400px;
+    text-align: center;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.75rem;
+}
+
+
+
+
+
+
+
+
+#main-section .container .fourth > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+
+
+#main-section .container .fifth {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  6rem;
+
+    
+}
+
+#main-section .container .sixth{
+    text-align: center;
+    padding: 6rem;
+}
+
+#main-section .container .sixth h2{
+    font-size: 2rem;
+    text-align: center;
+}
+
+#main-section .container .sixth p{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    max-width: 700px;
+    line-height: 1.75rem;
+}
+
+/* Footer */
+#main-footer{
+    background-color: var(--footer-color);
+    padding: 2.5rem 2rem;
+}
+
+#main-footer .container .grid ul{
+   display: grid;
+   grid-template-columns:repeat(5, 1fr);
+   
+}
+
+#main-footer .container .grid ul div li,
+#main-footer .container .grid ul div i,
+#main-footer .container .grid ul .socials{
+    padding: 1rem 0;
+}
+
+#main-footer .container .grid ul .socials{
+    align-items: center;
+    padding: 39px;
+} 
+
+#main-footer .container .grid ul .socials i{
+   
+    margin-right: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

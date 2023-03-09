@@ -1,0 +1,107 @@
+#main-section .container .first,
+#main-section .container .second,
+#main-section .container .third,
+#main-section .container .fourth,
+#main-section .container .fifth,
+#main-section .container .sixth {
+    padding: 3rem 1rem;
+}
+
+#main-section .container .first h1{
+    font-size: 1.75rem;
+}
+
+#main-section .container .first p{
+    font-size: 18px;
+    line-height: 1.7rem;
+}
+
+
+
+#main-section .container .second h2{
+font-size: 1.75rem;
+}
+
+#main-section .container .second .items{
+    flex-direction: column;
+}
+
+#main-section .container .second .items img{
+    transform: translateX(0);
+}
+
+#main-section .container .second .items .inside div{
+    padding: 1.5rem 0rem;
+}
+
+#main-section .container .second .items .inside{
+    padding:  0.2rem;
+}
+
+#main-section .container .second .items .inside h3{
+    text-align: center;
+}
+
+#main-section .container .second .items .inside p{
+    text-align: center;
+    font-size: 18px;
+}
+
+#main-section .container .third h2{
+    font-size: 1.75rem;
+}
+
+
+#main-section .container .third > div img{
+    margin-top: 2rem;
+}
+
+
+#main-section .container .fourth{
+    margin-top: 0rem;
+}
+
+#main-section .container .fourth h2{
+    font-size: 1.75rem;
+}
+
+#main-section .container .fourth > div{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#main-section .container .fourth p{
+    line-height: 1.75rem;
+}
+
+#main-section .container .fourth .cps{
+    padding: 0rem;
+}
+
+#main-section .container .fifth {
+   flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+#main-section .container .fifth img{
+    padding:1rem  1.5rem;
+}
+
+#main-section .container .sixth h2{
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+#main-footer .container .grid ul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#main-footer .container .grid ul .socials i{
+   
+    margin: auto;
+    padding: 0 1rem;
+}
